@@ -10,7 +10,9 @@
 !.xinitrc
 !.Xresources
 
-# Ignore .config folder
+!.README.md
+
+#Ignore .config folder
 !/.config
 /.config/*
 
@@ -27,5 +29,3 @@
 !/.config/Thunar/
 !/.config/compton.conf/
 !/.config/mimeapps.list/
-
-!.README.md
