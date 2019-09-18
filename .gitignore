@@ -11,12 +11,12 @@
 !.Xresources
 
 # Ignore .config folder
-./config/*
+.config/*
 # !/.config
 
 
 # But not these files...
-!/.config/i3/
+!.config/i3/
 !/.config/mutt/
 !/.config/neofetch/
 !/.config/nnn/
