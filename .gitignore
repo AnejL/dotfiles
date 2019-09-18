@@ -10,7 +10,7 @@
 !.xinitrc
 !.Xresources
 
-!.README.md
+!README.md
 
 #Ignore .config folder
 !/.config
