@@ -25,5 +25,8 @@ alt + x
 alt + s
 	/home/anej/Documents/Scripts/lock_suspend.sh
 
+shift + F1
+	soundmgr switch
+
 @Print
 	flameshot gui

@@ -28,6 +28,8 @@ sxhkd -c $HOME/.config/sxhkd/sxhkdrc_ws &
 
 numlockx &
 
+dunst &
+
 #-----------------------!hotkeys and system utilities
 
 #-----------------------dwm
