@@ -1,4 +1,4 @@
-##These are the dotfiles I use with my Arch build
+## These are the dotfiles I use with my Arch build
 
 *Primary purpouse of this repo is incremental backup but you can use them if you want.*
 
