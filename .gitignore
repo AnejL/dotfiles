@@ -11,17 +11,18 @@
 !.Xresources
 
 # Ignore .config folder
+!/.config
 .config/*
 
 # But not these files...
-!.config/i3/*
-!.config/mutt/*
-!.config/neofetch/*
-!.config/nnn/*
-!.config/nvim/*
-!.config/ranger/*
-!.config/sound/*
-!.config/sxhkd/*
-!.config/Thunar/*
-!.config/compton.conf/*
-!.config/mimeapps.list/*
+!.config/i3/
+!.config/mutt/
+!.config/neofetch/
+!.config/nnn/
+!.config/nvim/
+!.config/ranger/
+!.config/sound/
+!.config/sxhkd/
+!.config/Thunar/
+!.config/compton.conf/
+!.config/mimeapps.list/
