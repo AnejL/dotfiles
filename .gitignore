@@ -1,0 +1,27 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.bash_profile
+!.bashrc
+!.fehbg
+!.vimrc
+!.xinitrc
+!.Xresources
+
+# Ignore .config folder
+.config/*
+
+# But not these files...
+!.config/i3/*
+!.config/mutt/*
+!.config/neofetch/*
+!.config/nnn/*
+!.config/nvim/*
+!.config/ranger/*
+!.config/sound/*
+!.config/sxhkd/*
+!.config/Thunar/*
+!.config/compton.conf/*
+!.config/mimeapps.list/*
