@@ -1,6 +1,6 @@
 ## These are the dotfiles I use with my Arch build
 
-*Primary purpouse of this repo is incremental backup but you can use them if you want.*
+*Primary purpose of this repo is incremental backup but you can use them if you want.*
 
 Which programs have dotfiles here?
 
