@@ -27,3 +27,5 @@
 !/.config/Thunar/
 !/.config/compton.conf/
 !/.config/mimeapps.list/
+
+!.README.md
