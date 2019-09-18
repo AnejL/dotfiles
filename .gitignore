@@ -16,6 +16,7 @@
 
 # But not these files...
 !/.config/i3/
+!/.config/dunst/
 !/.config/mutt/
 !/.config/neofetch/
 !/.config/nnn/

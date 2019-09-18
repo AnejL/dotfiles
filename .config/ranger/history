@@ -11,8 +11,10 @@ shell gc readme update
 mkdir BKP_Kista_Linux
 mkdir BKP_Kista_Windows
 shell 
-copy
-paste
 
 delete
 shell mv config.h_0 config.h
+rename sxhkdrc sxhkdrc_ws
+rename sxhkdrc_ws
+copy
+paste

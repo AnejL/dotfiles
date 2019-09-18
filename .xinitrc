@@ -19,11 +19,12 @@ wmname LG3D
 
 xset b off
 
-xrdb -load /home/anej/.Xresources
+#xrdb -load /home/anej/.Xresources
 
 flameshot &
 
-sxhkd -c $HOME/.config/sxhkd/sxhkdrc &
+#sxhkd -c $HOME/.config/sxhkd/sxhkdrc_tp &
+sxhkd -c $HOME/.config/sxhkd/sxhkdrc_ws &
 
 numlockx &
 
