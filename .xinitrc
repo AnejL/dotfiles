@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ -d /etc/X11/xinit/xinitrc.d ]; then
 	for f in /etc/X11/xinit/xinitrc.d/*; do
@@ -15,26 +15,27 @@ wmname LG3D
 
 #-----------------------!intellij wm fix
 
-#-----------------------hotkeys and system utilities
+#-----------------------daemons
 
 xset b off
-
-#xrdb -load /home/anej/.Xresources
-
 flameshot &
-
-#sxhkd -c $HOME/.config/sxhkd/sxhkdrc_tp &
-sxhkd -c $HOME/.config/sxhkd/sxhkdrc_ws &
-
 numlockx &
-
 dunst &
 
-#-----------------------!hotkeys and system utilities
 
-#-----------------------dwm
+	#----machine specific startups
+	sxhkd -c $HOME/.config/sxhkd/sxhkdrc_tp &
+	#sxhkd -c $HOME/.config/sxhkd/sxhkdrc_ws &
 
-# feh --bg-scale /home/anej/Pictures/Wallpapers/pixel_2.png
+	soundmgr set-profile tp
+	#soundmgr set-profile ws
+	#---!machine specific startups
+
+
+#-----------------------!daemons
+
+#-----------------------dwm and visual changes
+
 wallpaper &
 
 dwmbar &
@@ -43,4 +44,4 @@ calendar &
 
 exec dwm
 
-#----------------------!dwm
+#----------------------!dwm and visual changes
