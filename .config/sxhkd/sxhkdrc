@@ -1,0 +1,56 @@
+XF86MonBrightnessUp
+	xbacklight -inc 15
+
+XF86MonBrightnessDown
+	xbacklight -dec 10
+
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +5% & refbar
+
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -5% & refbar
+
+XF86AudioMute
+	pactl set-sink-mute   @DEFAULT_SINK@ toggle & refbar
+
+shift + F1
+	soundmgr switch & refbar
+
+XF86AudioMicMute
+	pactl set-source-mute 1 toggle
+
+XF86Tools
+	/home/anej/Documents/Scripts/chooseide.sh
+
+super + shift + b
+	/home/anej/Documents/Scripts/powersaving.sh
+
+super + shift + i
+	xrandr --output eDP1 --primary --auto --output HDMI2 --off
+
+super + shift + o
+	xrandr --output HDMI2 --primary --auto --output eDP1 --off
+
+super + shift + p
+	xrandr --output eDP1 --primary --auto --output HDMI2 --same-as eDP1 --scale-from 1920x1080
+
+super + shift + s
+	/home/anej/Documents/Scripts/lock_suspend.sh
+
+super + x
+	/home/anej/Documents/Scripts/lock.sh
+
+super + ctrl + k
+	systemctl poweroff
+
+super + ctrl + l
+	systemctl reboot
+
+super + g
+	/home/anej/Documents/Scripts/creds.sh
+
+alt + b
+	btwiz
+
+@Print
+	flameshot gui
