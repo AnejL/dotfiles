@@ -34,7 +34,8 @@ dunst &
 
 #-----------------------dwm
 
-feh --bg-scale /home/anej/Pictures/Wallpapers/arch_2.jpg
+# feh --bg-scale /home/anej/Pictures/Wallpapers/pixel_2.png
+wallpaper &
 
 dwmbar &
 

@@ -12,9 +12,12 @@ mkdir BKP_Kista_Linux
 mkdir BKP_Kista_Windows
 shell 
 
-delete
 shell mv config.h_0 config.h
 rename sxhkdrc sxhkdrc_ws
 rename sxhkdrc_ws
-copy
 paste
+open_with vlc
+mkdir .hid
+q
+copy
+delete

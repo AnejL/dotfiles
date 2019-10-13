@@ -35,6 +35,7 @@ alias ds='cd $SCRIPTDIR'
 alias dsd='cd $SCRIPTDIR/dwmbar' 
 alias dsa='cd $SCRIPTDIR/archer'
 alias dss='cd $SCRIPTDIR/sound'
+alias dsb='cd $SCRIPTDIR/backupper'
 
 alias mt='$SCRIPTDIR/mount.sh'
 
@@ -50,3 +51,4 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 alias xmp='sudo /opt/lampp/lampp'
 alias cdhtd='cd /opt/lampp/htdocs'
+alias f='cd $HOME/Documents/Faks/5_semester'
