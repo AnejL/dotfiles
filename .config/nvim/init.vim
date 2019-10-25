@@ -22,10 +22,16 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <space> za
+vmap <Tab> >gv
+vmap <S-Tab> <gv
 
+let vim_markdown_preview_toggle=2
+ 
 " automatic commands
 autocmd BufWritePost config.h :! sudo make clean install %
 autocmd BufWritePost .bashrc :! source .bashrc %
+
+autocmd BufWritePost *.markdown :call Vim_Markdown_Preview()
 
 autocmd Filetype    python 
                 \   setlocal ts=4 |

@@ -19,7 +19,7 @@ DBDIR="$HOME/.dwmbar"
 
 
 alias cv='cd $HOME/Documents/Latex/CV && vim cv.tex'
-alias hkd='vim $HOME/.config/sxhkd/sxhkdrc && sxhkd'
+alias hkd='vim $HOME/.config/sxhkd/sxhkdrc_tp && sxhkd -c $HOME/.config/sxhkd/sxhkdrc_tp'
 
 alias o='cd /opt'
 alias odw='cd /opt/dwm'
@@ -28,7 +28,7 @@ alias ox='cd /opt/lampp'
 
 alias psyu='sudo pacman -Syu'
 alias psyyu='sudo pacman -Syyu'
-alias ps='sudo pacman -S'
+#alias ps='sudo pacman -S'
 
 alias vim='nvim'
 alias ds='cd $SCRIPTDIR'
@@ -45,10 +45,14 @@ alias gc='$SCRIPTDIR/gitpush.sh'
 alias brc='vim $HOME/.bashrc'
 alias vimrc='vim $HOME/.config/nvim/init.vim'
 
-alias nnn='nnn -d'
+alias nnn='nnn -dHi'
 alias new='$SCRIPTDIR/newbashscript.sh'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 alias xmp='sudo /opt/lampp/lampp'
 alias cdhtd='cd /opt/lampp/htdocs'
 alias f='cd $HOME/Documents/Faks/5_semester'
+
+alias vrc='nvim $HOME/.config/nvim/init.vim'
+alias btw='neofetch'
+alias tt='feh $HOME/Documents/Faks/urnik.png'

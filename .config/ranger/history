@@ -3,7 +3,6 @@ open_with
 open_with 
 open_with cmus
 mkdir test
-cut
 mv 
 terminal
 touch readme.md
@@ -11,13 +10,24 @@ shell gc readme update
 mkdir BKP_Kista_Linux
 mkdir BKP_Kista_Windows
 shell 
-
 shell mv config.h_0 config.h
 rename sxhkdrc sxhkdrc_ws
 rename sxhkdrc_ws
-paste
 open_with vlc
 mkdir .hid
 q
 copy
+cut
+mkdir colorscheme
+mkdir distrotube
+paste
+rename stbkp.txt
+rename ttybkp.txt
+rename xresourcesbkp.txt
+terminalsexyimportbkp.itermcolors
+rename terminalsexyimportbkp.itermcolors
 delete
+
+touch ttt
+touch ttt2
+open_with vim
