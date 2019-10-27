@@ -1,6 +1,5 @@
 open_with q
 open_with
-open_with 
 open_with cmus
 mkdir test
 mv 
@@ -26,8 +25,11 @@ rename ttybkp.txt
 rename xresourcesbkp.txt
 terminalsexyimportbkp.itermcolors
 rename terminalsexyimportbkp.itermcolors
-delete
 
 touch ttt
 touch ttt2
 open_with vim
+rename knnw_1.jpg
+open_with 
+rename knnw_2.jpg
+delete

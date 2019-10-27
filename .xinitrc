@@ -24,8 +24,6 @@ flameshot &
 numlockx &
 dunst &
 
-# dockd --daemon
-
 profile=$(cat $HOME/.config/profile)
 sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$profile &
 soundmgr "set-profile" "$profile"
