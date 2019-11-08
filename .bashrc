@@ -23,7 +23,7 @@ alias hkd='vim $HOME/.config/sxhkd/sxhkdrc_tp && sxhkd -c $HOME/.config/sxhkd/sx
 
 alias o='cd /opt'
 alias odw='cd /opt/dwm'
-alias ost='cd /opt/st'
+alias ost='cd /opt/st-0.8.2'
 alias ox='cd /opt/lampp'
 
 alias psyu='sudo pacman -Syu'

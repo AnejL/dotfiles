@@ -1,6 +1,6 @@
 
 [global]
-    font = Roboto 13
+    font = Mononoki
 
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -155,7 +155,7 @@
 
 [frame]
     width = 0
-    color = "#24292A"
+    color = "#555866"
 
 [shortcuts]
 
@@ -182,18 +182,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#3c4140"
+    background = "#3c3e47"
     foreground = "#ccd2be"
     timeout = 16
 
 [urgency_normal]
-    background = "#3c4140"
-    foreground = "#ccd2be"
+    background = "#3c3e47"
+    foreground = "#d7d7d7"
     timeout = 16
 
 [urgency_critical]
-    background = "#D62929"
-    foreground = "#ccd2be"
+    background = "#3c3e47"
+    foreground = "#ff5555"
     timeout = 16
 
 

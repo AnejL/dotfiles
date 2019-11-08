@@ -16,8 +16,7 @@ URxvt.keysym.C-S-0x56: eval:paste_clipboard
 URxvt.keysym.C-Down:  resize-font:smaller
 URxvt.keysym.C-Up:    resize-font:bigger
 
-
-URxvt.font: 		xft:DejaVuSansMono:pixelsize=17
+URxvt.font: 		xft:Mononoki:pixelsize=20
 URxvt.scrollBar: 	false
 URxvt.termName:  	rxvt
 URxvt.internalBorder:   5 

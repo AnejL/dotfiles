@@ -7,6 +7,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 	unset f
 fi
 
+#-----------------------spyware fix
+
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 #-----------------------intellij wm fix
@@ -30,14 +32,18 @@ soundmgr "set-profile" "$profile"
 
 #-----------------------!daemons
 
-#-----------------------dwm and visual changes
+#-----------------------wm and visual changes
 
 wallpaper sf &
 
-dwmbar &
+wm=$(cat "$HOME/.config/wm")
 
-calendar &  
+if [ "$wm" = "dwm" ]; then
+	dwmbar &
+	calendar &  
+	exec dwm
+elif [ "$wm" = "i3" ]; then
+	exec i3	
+fi
 
-exec dwm
-
-#----------------------!dwm and visual changes
+#----------------------!wm and visual changes
