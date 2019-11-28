@@ -15,17 +15,13 @@ rename sxhkdrc_ws
 open_with vlc
 mkdir .hid
 q
-copy
-cut
 mkdir colorscheme
 mkdir distrotube
-paste
 rename stbkp.txt
 rename ttybkp.txt
 rename xresourcesbkp.txt
 terminalsexyimportbkp.itermcolors
 rename terminalsexyimportbkp.itermcolors
-
 touch ttt
 touch ttt2
 open_with vim
@@ -33,3 +29,13 @@ rename knnw_1.jpg
 open_with 
 rename knnw_2.jpg
 delete
+mkdir vmware
+
+cut
+copy
+paste
+mkdir my
+touch .Xresources
+touch Xresources
+open_with nvim
+nvim Xresources

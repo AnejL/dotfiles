@@ -1,3 +1,7 @@
+#
+# Handle laptop's functions
+#
+
 XF86MonBrightnessUp
 	xbacklight -inc 15
 
@@ -13,17 +17,23 @@ XF86AudioLowerVolume
 XF86AudioMute
 	pactl set-sink-mute   @DEFAULT_SINK@ toggle & refbar
 
-shift + F1
-	soundmgr switch & refbar
-
 XF86AudioMicMute
 	pactl set-source-mute 1 toggle
 
 XF86Tools
 	/home/anej/Documents/Scripts/chooseide.sh
+#
+# non-wm specific shortcuts
+#
+ 
+shift + F1
+	soundmgr switch & refbar
 
 super + shift + b
 	/home/anej/Documents/Scripts/powersaving.sh
+
+super + shift + k
+	setlayout
 
 super + shift + i
 	xrandr --output eDP1 --primary --auto --output HDMI2 --off

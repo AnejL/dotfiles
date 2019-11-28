@@ -11,6 +11,7 @@ alias ls='ls --color=auto'
 PS1="\[$(tput setaf 4)\][ \[$(tput sgr0)\]\u@\h \[$(tput setaf 2)\]\w \[$(tput setaf 4)\]] $ \[$(tput sgr0)\]"
 #PATH=$PATH:/home/anej/.config/nvim/bundle/vim-live-latex-preview/bin/
 #PATH=$PATH:~/.vim/bundle/vim-live-latex-preview/bin
+PATH=$PATH:~/.dotnet/tools
 
 SCRIPTDIR="$HOME/Documents/Scripts"
 
@@ -55,4 +56,3 @@ alias f='cd $HOME/Documents/Faks/5_semester'
 
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias btw='neofetch'
-alias tt='feh $HOME/Documents/Faks/urnik.png'

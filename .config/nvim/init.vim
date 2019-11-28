@@ -33,6 +33,8 @@ autocmd BufWritePost .bashrc :! source .bashrc %
 
 autocmd BufWritePost *.markdown :call Vim_Markdown_Preview()
 
+autocmd BufWritePost .Xresouces :! xrdb .Xresouces %
+
 autocmd Filetype    python 
                 \   setlocal ts=4 |
                 \   setlocal expandtab 

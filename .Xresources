@@ -16,59 +16,51 @@ URxvt.keysym.C-S-0x56: eval:paste_clipboard
 URxvt.keysym.C-Down:  resize-font:smaller
 URxvt.keysym.C-Up:    resize-font:bigger
 
-URxvt.font: 		xft:Mononoki:pixelsize=20
+URxvt.font: 		xft:Mononoki:pixelsize=16
 URxvt.scrollBar: 	false
 URxvt.termName:  	rxvt
-URxvt.internalBorder:   5 
+URxvt.internalBorder:   10 
 
 
 ! ---------- generic colors ---------- !
 ! 
 !
 ! special
-*.foreground:   #919191
-*.background:   #000000
-*.cursorColor:  #919191
+*.foreground:   #e5e7e6
+*.background:   #131926
+*.cursorColor:  #e5e7e6
 
 ! black
-!
-*.color0:       rgba:2000/2000/2000/cccc
-!*.color8:       rgba:2000/2000/2000/cccc
-!*.color0:       #303030
-*.color8:       #5e5e5e
+*.color0:       #262b35
+*.color8:       #262b35
 
 ! red
-*.color1:       #d85757
-*.color9:       #e84d4d
+*.color1:       #f43434
+*.color9:       #f43434
 
 ! green
-*.color2:       #8bca99
-*.color10:      #8bca99
-
-! blue
-*.color3:       #eee8a9
-*.color11:      #feeeaa
-
+*.color2:       #e94b4b
+*.color10:      #e94b4b
 
 ! yellow
-*.color4:       #6f8ec2
-*.color12:      #597cb6
+*.color3:       #de935f
+*.color11:      #de935f
+
+! blue
+*.color4:       #81a2be
+*.color12:      #81a2be
 
 ! magenta
-*.color5:       #bb8ec4
-*.color13:      #dba4e0
+*.color5:       #c56ae3
+*.color13:      #c56ae3
 
 ! cyan
-*.color6:       #729db7
-*.color14:      #5192b4
+*.color6:       #dd6363
+*.color14:      #dd6363
 
 ! white
-*.color7:       #c6c6c6
-*.color15:      #ffffff
-
-URxvt.depth: 32
-URxvt.background: rgba:2000/2000/2000/cccc
-
+*.color7:       #707880
+*.color15:      #c3c8c6
 
 ! ---------- font settings ---------- !
 !

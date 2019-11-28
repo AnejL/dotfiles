@@ -9,10 +9,11 @@ fi
 
 #-----------------------spyware fix
 
-export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export DOTNET_CLI_TELEMETRY_OPTOUT=1 
+export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
 
 #-----------------------intellij wm fix
-
+export XDG_CONFIG_HOME=$HOME/.config
 export _JAVA_AWT_WM_NONREPARENTING=1 
 export AWT_TOOLKIT=MToolkit 
 wmname LG3D
@@ -44,6 +45,8 @@ if [ "$wm" = "dwm" ]; then
 	exec dwm
 elif [ "$wm" = "i3" ]; then
 	exec i3	
+else
+	exec bspwm
 fi
 
 #----------------------!wm and visual changes
