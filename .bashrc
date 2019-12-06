@@ -7,17 +7,17 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 
 PS1="\[$(tput setaf 4)\][ \[$(tput sgr0)\]\u@\h \[$(tput setaf 2)\]\w \[$(tput setaf 4)\]] $ \[$(tput sgr0)\]"
 #PATH=$PATH:/home/anej/.config/nvim/bundle/vim-live-latex-preview/bin/
 #PATH=$PATH:~/.vim/bundle/vim-live-latex-preview/bin
 PATH=$PATH:~/.dotnet/tools
 
-SCRIPTDIR="$HOME/Documents/Scripts"
+export SCRIPTDIR="$HOME/Documents/Scripts"
+export EDITOR="nvim"
 
-EDITOR="nvim"
 DBDIR="$HOME/.dwmbar"
-
 
 alias cv='cd $HOME/Documents/Latex/CV && vim cv.tex'
 alias hkd='vim $HOME/.config/sxhkd/sxhkdrc_tp && sxhkd -c $HOME/.config/sxhkd/sxhkdrc_tp'

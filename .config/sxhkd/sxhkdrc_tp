@@ -9,58 +9,86 @@ XF86MonBrightnessDown
 	xbacklight -dec 10
 
 XF86AudioRaiseVolume
-	pactl set-sink-volume @DEFAULT_SINK@ +5% & refbar
+	pactl set-sink-volume @DEFAULT_SINK@ +5% && refbar
 
 XF86AudioLowerVolume
-	pactl set-sink-volume @DEFAULT_SINK@ -5% & refbar
+	pactl set-sink-volume @DEFAULT_SINK@ -5% && refbar
 
 XF86AudioMute
-	pactl set-sink-mute   @DEFAULT_SINK@ toggle & refbar
+	pactl set-sink-mute   @DEFAULT_SINK@ toggle && refbar
 
 XF86AudioMicMute
 	pactl set-source-mute 1 toggle
 
 XF86Tools
-	/home/anej/Documents/Scripts/chooseide.sh
+	$SCRIPTDIR/chooseide.sh
+
 #
 # non-wm specific shortcuts
 #
- 
-shift + F1
-	soundmgr switch & refbar
 
-super + shift + b
-	/home/anej/Documents/Scripts/powersaving.sh
+#@Bližnjice za preklapljanje zaslonov
 
-super + shift + k
-	setlayout
-
+#@@Uporabi vgrajen prenosnikov display
 super + shift + i
 	xrandr --output eDP1 --primary --auto --output HDMI2 --off
 
+#@@Uporabi HDMI display
 super + shift + o
 	xrandr --output HDMI2 --primary --auto --output eDP1 --off
 
+#@@Podvoji display
 super + shift + p
 	xrandr --output eDP1 --primary --auto --output HDMI2 --same-as eDP1 --scale-from 1920x1080
 
-super + shift + s
-	/home/anej/Documents/Scripts/lock_suspend.sh
+#
+# scripts installed to /usr/local/bin
+#
 
-super + x
-	/home/anej/Documents/Scripts/lock.sh
-
-super + ctrl + k
-	systemctl poweroff
-
-super + ctrl + l
-	systemctl reboot
-
-super + g
-	/home/anej/Documents/Scripts/creds.sh
+#@Pogoste funkcije
 
 alt + b
 	btwiz
+
+#@@Preklopi zvočni izhod (slušalke ali HDMI)
+shift + F1
+	soundmgr switch & refbar
+
+#@@Izberi ameriško ali slovensko tipkovnico
+super + shift + k
+	setlayout
+
+#
+# scripts in their home folder
+#
+
+#@@Izberi wifi omrežje
+super + shift + n
+	$SCRIPTDIR/networkmanager/nm.sh && refbar
+
+#@@Powersaving/High performance
+super + shift + b
+	$SCRIPTDIR/powersaving.sh
+
+#@Ugašanje in spanje
+#@@Zakleni računalnik in ga daj spat
+super + shift + s
+	$SCRIPTDIR/lock_suspend.sh
+
+#@@Zakleni računalnik
+super + x
+	$SCRIPTDIR/lock.sh
+
+super + g
+	$SCRIPTDIR/creds.sh
+
+#@@Ugasni računalnik
+super + ctrl + k
+	systemctl poweroff
+
+#@@Restartaj računalnik
+super + ctrl + l
+	systemctl reboot
 
 @Print
 	flameshot gui
