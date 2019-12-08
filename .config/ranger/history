@@ -28,7 +28,6 @@ open_with vim
 rename knnw_1.jpg
 open_with 
 rename knnw_2.jpg
-delete
 mkdir vmware
 
 cut
@@ -39,3 +38,4 @@ touch .Xresources
 touch Xresources
 open_with nvim
 nvim Xresources
+delete
