@@ -31,11 +31,14 @@ rename knnw_2.jpg
 mkdir vmware
 
 cut
-copy
-paste
 mkdir my
 touch .Xresources
 touch Xresources
 open_with nvim
 nvim Xresources
 delete
+mkdir signali
+touch handler.c
+copy
+paste
+delete 

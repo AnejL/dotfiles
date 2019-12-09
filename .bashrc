@@ -46,8 +46,12 @@ alias gc='$SCRIPTDIR/gitpush.sh'
 alias brc='vim $HOME/.bashrc'
 alias vimrc='vim $HOME/.config/nvim/init.vim'
 
+alias cpwd='$SCRIPTDIR/cpwd.sh'
 alias nnn='nnn -dHi'
 alias new='$SCRIPTDIR/newbashscript.sh'
+alias newc='$SCRIPTDIR/newcprogram.sh'
+alias bkpc='$SCRIPTDIR/backupc.sh'
+
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 alias xmp='sudo /opt/lampp/lampp'

@@ -12,7 +12,7 @@
 
 !README.md
 
-#Ignore .config folder
+# Ignore .config folder
 !/.config
 /.config/*
 
@@ -28,3 +28,6 @@
 !/.config/Thunar/
 !/.config/compton.conf/
 !/.config/mimeapps.list/
+
+# C - file template
+!/.local/share/c-file-template
