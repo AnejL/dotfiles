@@ -1,4 +1,10 @@
 #
+# Reload sxhkd
+#
+
+super + Escape
+	pkill -USR1 -x sxhkd
+#
 # Handle laptop's functions
 #
 
@@ -73,11 +79,11 @@ super + shift + b
 #@Ugašanje in spanje
 #@@Zakleni računalnik in ga daj spat
 super + shift + s
-	$SCRIPTDIR/lock_suspend.sh
+	$SCRIPTDIR/lock.sh sleep
 
 #@@Zakleni računalnik
 super + x
-	$SCRIPTDIR/lock.sh
+	$SCRIPTDIR/lock.sh 
 
 super + g
 	$SCRIPTDIR/creds.sh
