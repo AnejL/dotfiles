@@ -60,3 +60,4 @@ alias f='cd $HOME/Documents/Faks/5_semester'
 
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias btw='neofetch'
+alias tpo='cd $HOME/Documents/Faks/5_semester/TPO/seminarska/tello-studio'

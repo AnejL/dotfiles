@@ -56,6 +56,10 @@ super + shift + p
 alt + b
 	btwiz
 
+#@@Prikaži stanje baterije in preostali čas
+super + u
+	notify-send "$(acpi -b)" -t 3000
+
 #@@Preklopi zvočni izhod (slušalke ali HDMI)
 shift + F1
 	soundmgr switch & refbar
