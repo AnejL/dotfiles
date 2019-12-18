@@ -36,10 +36,10 @@ touch .Xresources
 touch Xresources
 open_with nvim
 nvim Xresources
-delete
 mkdir signali
 touch handler.c
 copy
 paste
 delete 
 search nnn
+delete

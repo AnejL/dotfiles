@@ -1,4 +1,4 @@
-<?xml encoding="UTF-8" version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
 	<icon>utilities-terminal</icon>
@@ -14,7 +14,7 @@
 	<icon></icon>
 	<name>Unzip</name>
 	<unique-id>1563715494713601-1</unique-id>
-	<command>unzip %N</command>
+	<command>mkdir %N-unz &amp;&amp; unzip %N -d %N-unz </command>
 	<description>unzip zip archive</description>
 	<patterns>*.zip</patterns>
 	<other-files/>

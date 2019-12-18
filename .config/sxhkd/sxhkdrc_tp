@@ -15,16 +15,19 @@ XF86MonBrightnessDown
 	xbacklight -dec 10
 
 XF86AudioRaiseVolume
-	pactl set-sink-volume @DEFAULT_SINK@ +5% && refbar
+	soundmgr inc && refbar
+	#pactl set-sink-volume @DEFAULT_SINK@ +5% && soundmgr notify-volume & refbar
 
 XF86AudioLowerVolume
-	pactl set-sink-volume @DEFAULT_SINK@ -5% && refbar
+	soundmgr dec && refbar
+	#pactl set-sink-volume @DEFAULT_SINK@ -5% && soundmgr notify-volume & refbar
 
 XF86AudioMute
-	pactl set-sink-mute   @DEFAULT_SINK@ toggle && refbar
+	soundmgr mute && refbar
+	#pactl set-sink-mute   @DEFAULT_SINK@ toggle && soundmgr notify-volume & refbar
 
 XF86AudioMicMute
-	pactl set-source-mute 1 toggle
+	pactl set-source-mute 1 toggle && soundmgr notify-volume
 
 XF86Tools
 	$SCRIPTDIR/chooseide.sh
