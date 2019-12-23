@@ -43,7 +43,8 @@ wallpaper sf &
 wm=$(cat "$HOME/.config/wm")
 
 if [ "$wm" = "dwm" ]; then
-	dwmbar &
+	#dwmbar &
+	dbc &
 	calendar &  
 	exec dwm
 elif [ "$wm" = "i3" ]; then
