@@ -24,9 +24,7 @@ terminalsexyimportbkp.itermcolors
 rename terminalsexyimportbkp.itermcolors
 touch ttt
 touch ttt2
-open_with vim
 rename knnw_1.jpg
-open_with 
 rename knnw_2.jpg
 mkdir vmware
 
@@ -40,6 +38,9 @@ mkdir signali
 touch handler.c
 copy
 paste
-delete 
 search nnn
+search .local
+delete 
+open_with 
+open_with vim
 delete
