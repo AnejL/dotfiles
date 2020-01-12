@@ -25,9 +25,9 @@
 !/.config/ranger/
 !/.config/sound/
 !/.config/sxhkd/
-!/.config/Thunar/
+!.config/Thunar/
 !/.config/compton.conf/
 !/.config/mimeapps.list/
 
 # C - file template
-!/.local/share/c-file-template
+!.local/share/c-file-template
