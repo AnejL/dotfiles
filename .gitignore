@@ -30,4 +30,6 @@
 !/.config/mimeapps.list/
 
 # C - file template
-!.local/share/c-file-template
+!/.local
+/.local/*
+!/.local/share/c-file-template
