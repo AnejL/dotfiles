@@ -61,3 +61,5 @@ alias f='cd $HOME/Documents/Faks/5_semester'
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias btw='neofetch'
 alias tpo='cd $HOME/Documents/Faks/5_semester/TPO/seminarska/tello-studio'
+
+alias makekernel='sudo make -C /usr/src/linux-headers-$(uname -r) M=$(pwd) modules'

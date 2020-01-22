@@ -32,6 +32,8 @@ XF86AudioMicMute
 XF86Tools
 	$SCRIPTDIR/chooseide.sh
 
+XF86Favorites
+	$SCRIPTDIR/synaptics.sh
 #
 # non-wm specific shortcuts
 #

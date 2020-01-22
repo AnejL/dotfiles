@@ -1,7 +1,3 @@
-open_with q
-open_with
-open_with cmus
-mkdir test
 mv 
 terminal
 touch readme.md
@@ -28,7 +24,6 @@ rename knnw_1.jpg
 rename knnw_2.jpg
 mkdir vmware
 
-cut
 mkdir my
 touch .Xresources
 touch Xresources
@@ -36,11 +31,20 @@ open_with nvim
 nvim Xresources
 mkdir signali
 touch handler.c
-copy
-paste
 search nnn
 search .local
 delete 
-open_with 
 open_with vim
+search pb2
+search radi
+search lda
+cut
+search Picu
+copy
+paste
+touch proxy.conf
+open_with 
 delete
+open_with q
+shell st
+search Mu

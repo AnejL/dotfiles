@@ -12,7 +12,6 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-ascending" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-network" "")
-; (gtk_accel_path "<Actions>/ThunarActions/uca-action-1563715494713601-1" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/a025add7f14d573074d5b2a77ea2cdbd" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/0064c8b8c2b8ae1954479b6f2feab576" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/switch-next-tab" "<Primary>Page_Down")
