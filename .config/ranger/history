@@ -1,5 +1,3 @@
-mv 
-terminal
 touch readme.md
 shell gc readme update
 mkdir BKP_Kista_Linux
@@ -23,7 +21,6 @@ touch ttt2
 rename knnw_1.jpg
 rename knnw_2.jpg
 mkdir vmware
-
 mkdir my
 touch .Xresources
 touch Xresources
@@ -33,18 +30,21 @@ mkdir signali
 touch handler.c
 search nnn
 search .local
-delete 
 open_with vim
 search pb2
 search radi
 search lda
-cut
 search Picu
 copy
-paste
 touch proxy.conf
 open_with 
-delete
 open_with q
-shell st
 search Mu
+shell st
+search vmdk
+
+cut
+mkdir Books
+paste
+delete 
+delete
