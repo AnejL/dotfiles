@@ -1,6 +1,3 @@
-touch readme.md
-shell gc readme update
-mkdir BKP_Kista_Linux
 mkdir BKP_Kista_Windows
 shell 
 shell mv config.h_0 config.h
@@ -40,11 +37,14 @@ touch proxy.conf
 open_with 
 open_with q
 search Mu
-shell st
 search vmdk
-
 cut
 mkdir Books
 paste
 delete 
+mkdir strings
+sh newc strcmp
+shell newc strcmp
+shell st
+
 delete
