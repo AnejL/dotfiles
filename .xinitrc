@@ -39,8 +39,6 @@ if [ "$wm" = "dwm" ]; then
 	exec dwm
 elif [ "$wm" = "i3" ]; then
 	exec i3	
-else
-	exec bspwm
 fi
 
 #----------------------!wm and visual changes
