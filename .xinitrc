@@ -7,15 +7,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 	unset f
 fi
 
-# remove dotnet later
-#-----------------------spyware fix
-
-export DOTNET_CLI_TELEMETRY_OPTOUT=1 
-export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
-
-#----------------------!spyware fix
-
 #-----------------------intellij wm fix
+
 export XDG_CONFIG_HOME=$HOME/.config
 export _JAVA_AWT_WM_NONREPARENTING=1 
 export AWT_TOOLKIT=MToolkit 
@@ -30,9 +23,7 @@ flameshot &
 numlockx &
 dunst &
 
-profile=$(cat $HOME/.config/profile)
-sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$profile &
-soundmgr "set-profile" "$profile"
+sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$PROFILE &
 
 #-----------------------!daemons
 
@@ -43,7 +34,6 @@ wallpaper sf &
 wm=$(cat "$HOME/.config/wm")
 
 if [ "$wm" = "dwm" ]; then
-	#dwmbar &
 	dbc &
 	calendar &  
 	exec dwm

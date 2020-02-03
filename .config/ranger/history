@@ -32,13 +32,11 @@ search pb2
 search radi
 search lda
 search Picu
-copy
 touch proxy.conf
 open_with 
 open_with q
 search Mu
 search vmdk
-cut
 mkdir Books
 paste
 delete 
@@ -46,5 +44,7 @@ mkdir strings
 sh newc strcmp
 shell newc strcmp
 shell st
-
 delete
+copy
+
+cut

@@ -12,15 +12,13 @@ alias grep='grep --color=auto'
 PS1="\[$(tput setaf 4)\][ \[$(tput sgr0)\]\u@\h \[$(tput setaf 2)\]\w \[$(tput setaf 4)\]] $ \[$(tput sgr0)\]"
 #PATH=$PATH:/home/anej/.config/nvim/bundle/vim-live-latex-preview/bin/
 #PATH=$PATH:~/.vim/bundle/vim-live-latex-preview/bin
-PATH=$PATH:~/.dotnet/tools
 
 export SCRIPTDIR="$HOME/Documents/Scripts"
 export EDITOR="nvim"
-
-DBDIR="$HOME/.dwmbar"
+export PROFILE="$(cat $HOME/.config/profile)"
 
 alias cv='cd $HOME/Documents/Latex/CV && vim cv.tex'
-alias hkd='vim $HOME/.config/sxhkd/sxhkdrc_tp && sxhkd -c $HOME/.config/sxhkd/sxhkdrc_tp'
+alias hkd='vim $HOME/.config/sxhkd/sxhkdrc_$PROFILE && sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$PROFILE'
 
 alias o='cd /opt'
 alias odw='cd /opt/dwm'
