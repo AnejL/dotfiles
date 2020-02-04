@@ -8,17 +8,27 @@ super + Escape
 # Handle laptop's functions
 #
 
+XF86AudioRaiseVolume
+	amixer set Master 2+ && refbar
+
+XF86AudioLowerVolume
+	amixer set Master 2- && refbar
+
+XF86AudioMute
+	amixer set Master toggle && refbar
+
+XF86AudioMicMute
+	amixer set Capture toggle
+
 XF86MonBrightnessUp
 	xbacklight -inc 15
 
 XF86MonBrightnessDown
 	xbacklight -dec 10
 
-XF86Tools
-	$SCRIPTDIR/chooseide.sh
-
-XF86Favorites
+XF86Launch1
 	$SCRIPTDIR/synaptics.sh
+	
 #
 # non-wm specific shortcuts
 #
@@ -46,14 +56,6 @@ super + shift + p
 alt + b
 	btwiz
 
-#@@Prikaži stanje baterije in preostali čas
-super + u
-	notify-send "$(acpi -b)" -t 3000
-
-#@@Preklopi zvočni izhod (slušalke ali HDMI)
-shift + F1
-	soundmgr switch & refbar
-
 #@@Izberi ameriško ali slovensko tipkovnico
 super + shift + k
 	setlayout
@@ -63,7 +65,7 @@ super + shift + k
 #
 
 #@@Izberi wifi omrežje
-XF86Launch1
+super + shift + n
 	$SCRIPTDIR/networkmanager/nm.sh && refbar
 
 #@@Powersaving/High performance
