@@ -15,19 +15,16 @@ XF86MonBrightnessDown
 	xbacklight -dec 10
 
 XF86AudioRaiseVolume
-	soundmgr inc && refbar
-	#pactl set-sink-volume @DEFAULT_SINK@ +5% && soundmgr notify-volume & refbar
+	amixer set Master 2+ && refbar
 
 XF86AudioLowerVolume
-	soundmgr dec && refbar
-	#pactl set-sink-volume @DEFAULT_SINK@ -5% && soundmgr notify-volume & refbar
+	amixer set Master 2- && refbar
 
 XF86AudioMute
-	soundmgr mute && refbar
-	#pactl set-sink-mute   @DEFAULT_SINK@ toggle && soundmgr notify-volume & refbar
+	amixer set Master toggle && refbar
 
 XF86AudioMicMute
-	pactl set-source-mute 1 toggle && soundmgr notify-volume
+	amixer set Capture toggle
 
 XF86Tools
 	$SCRIPTDIR/chooseide.sh
