@@ -29,6 +29,22 @@ XF86MonBrightnessDown
 XF86Launch1
 	$SCRIPTDIR/synaptics.sh
 	
+XF86ScreenSaver
+	$SCRIPTDIR/lock.sh
+
+XF86Sleep
+	$SCRIPTDIR/lock.sh 
+
+XF86AudioPrev
+	cmus-remote -r
+
+XF86AudioNext
+	cmus-remote -n
+
+XF86AudioPlay
+	cmus-remote -u
+
+
 #
 # non-wm specific shortcuts
 #
