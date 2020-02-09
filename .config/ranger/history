@@ -44,7 +44,7 @@ mkdir strings
 sh newc strcmp
 shell newc strcmp
 shell st
-delete
 copy
 
 cut
+delete

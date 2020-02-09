@@ -8,7 +8,11 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-PS1="\[$(tput setaf 4)\][ \[$(tput sgr0)\]\u@\h \[$(tput setaf 2)\]\w \[$(tput setaf 4)\]] $ \[$(tput sgr0)\]"
+if [ "$(whoami)" = "anej" ]; then
+	PS1="\[$(tput setaf 4)\][ \[$(tput sgr0)\]\u@\h \[$(tput setaf 2)\]\w \[$(tput setaf 4)\]] $ \[$(tput sgr0)\]"
+else
+	PS1="\[$(tput setaf 4)\][ \[$(tput setaf 1)\]\u@\h \[$(tput setaf 2)\]\w \[$(tput setaf 4)\]] $ \[$(tput sgr0)\]"
+fi
 
 export SCRIPTDIR="$HOME/Documents/Scripts"
 export EDITOR="nvim"
@@ -54,3 +58,5 @@ alias f='cd $HOME/Documents/Faks/5_semester'
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias btw='neofetch'
 alias tpo='cd $HOME/Documents/Faks/5_semester/TPO/seminarska/tello-studio'
+
+alias addrule='$SCRIPTDIR/addufwrule.sh'

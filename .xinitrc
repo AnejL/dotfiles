@@ -36,6 +36,7 @@ wm=$(cat "$HOME/.config/wm")
 if [ "$wm" = "dwm" ]; then
 	dbc &
 	calendar &  
+	st &
 	exec dwm
 elif [ "$wm" = "i3" ]; then
 	exec i3	
