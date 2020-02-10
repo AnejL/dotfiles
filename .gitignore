@@ -28,6 +28,7 @@
 !/.config/compton.conf/
 !/.config/mimeapps.list/
 
+/.config/ranger/bookmarks
 # C - file template
 /.local/share/*
 !c-file-template
