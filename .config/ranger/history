@@ -1,6 +1,3 @@
-mkdir BKP_Kista_Windows
-shell 
-shell mv config.h_0 config.h
 rename sxhkdrc sxhkdrc_ws
 rename sxhkdrc_ws
 open_with vlc
@@ -48,3 +45,6 @@ copy
 
 cut
 delete
+delete 20-thinkpad.conf
+touch 20-thinkpad.conf
+mkdir pulse

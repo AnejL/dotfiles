@@ -4,6 +4,6 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-if [ "$(whoami)" = "anej" ]; then
+if [ "$USER" = "anej" ]; then
 	exec startx
 fi
