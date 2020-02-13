@@ -29,6 +29,8 @@
 !/.config/mimeapps.list/
 
 /.config/ranger/bookmarks
+/.config/ranger/history
+/.config/Thunar/accels.scm
 # C - file template
 /.local/share/*
 !c-file-template
