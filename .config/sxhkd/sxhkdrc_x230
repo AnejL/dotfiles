@@ -30,10 +30,10 @@ XF86Launch1
 	$SCRIPTDIR/synaptics.sh
 	
 XF86ScreenSaver
-	$SCRIPTDIR/lock.sh
+	i3lockcolor
 
 XF86Sleep
-	$SCRIPTDIR/lock.sh 
+	i3lockcolor
 
 XF86AudioPrev
 	cmus-remote -r
@@ -91,7 +91,7 @@ super + shift + b
 #@Ugašanje in spanje
 #@@Zakleni računalnik in ga daj spat
 super + shift + s
-	$SCRIPTDIR/lock.sh sleep
+	i3lockcolor sleep
 
 #@@Zakleni računalnik
 super + x

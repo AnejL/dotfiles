@@ -38,13 +38,13 @@ open_with q
 search Mu
 search vmdk
 mkdir Books
-paste
-delete 
 mkdir strings
 sh newc strcmp
 shell newc strcmp
 shell st
 copy
 
-cut
 delete
+cut
+paste
+delete 

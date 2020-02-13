@@ -30,6 +30,8 @@ sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$PROFILE &
 #-----------------------wm and visual changes
 
 wallpaper sf &
+amixer set Capture nocap &
+amixer set Master mute &
 
 wm=$(cat "$HOME/.config/wm")
 
