@@ -53,7 +53,7 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 alias xmp='sudo /opt/lampp/lampp'
 alias cdhtd='cd /opt/lampp/htdocs'
-alias f='cd $HOME/Documents/Faks/5_semester'
+alias f='cd $HOME/Documents/Faks/diplomska'
 
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias btw='neofetch'

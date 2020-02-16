@@ -25,23 +25,18 @@ dunst &
 
 sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$PROFILE &
 
+amixer set Capture nocap &
+amixer set Master mute &
+
 #-----------------------!daemons
 
 #-----------------------wm and visual changes
 
 wallpaper sf &
-amixer set Capture nocap &
-amixer set Master mute &
 
-wm=$(cat "$HOME/.config/wm")
-
-if [ "$wm" = "dwm" ]; then
-	dbc &
-	calendar &  
-	st &
-	exec dwm
-elif [ "$wm" = "i3" ]; then
-	exec i3	
-fi
+dbc &
+calendar &  
+st &
+exec dwm
 
 #----------------------!wm and visual changes
