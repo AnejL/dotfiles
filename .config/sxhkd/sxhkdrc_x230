@@ -8,6 +8,9 @@ super + Escape
 # Handle laptop's functions
 #
 
+Caps_Lock
+	sleep 0.15 && refbar
+
 XF86AudioRaiseVolume
 	amixer set Master 2+ && refbar
 
@@ -43,7 +46,6 @@ XF86AudioNext
 
 XF86AudioPlay
 	cmus-remote -u
-
 
 #
 # non-wm specific shortcuts

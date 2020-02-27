@@ -52,6 +52,7 @@ alias bkpc='$SCRIPTDIR/backupc.sh'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 alias xmp='sudo /opt/lampp/lampp'
+alias cdxmp='cd /opt/lampp/'
 alias cdhtd='cd /opt/lampp/htdocs'
 alias f='cd $HOME/Documents/Faks/diplomska'
 
@@ -60,3 +61,4 @@ alias btw='neofetch'
 alias tpo='cd $HOME/Documents/Faks/5_semester/TPO/seminarska/tello-studio'
 
 alias addrule='$SCRIPTDIR/addufwrule.sh'
+
