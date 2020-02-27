@@ -61,4 +61,4 @@ alias btw='neofetch'
 alias tpo='cd $HOME/Documents/Faks/5_semester/TPO/seminarska/tello-studio'
 
 alias addrule='$SCRIPTDIR/addufwrule.sh'
-
+alias reshell='sudo ln -sf /bin/dash /bin/sh'
