@@ -30,7 +30,7 @@ XF86Tools
 	$SCRIPTDIR/chooseide.sh
 
 XF86Favorites
-	$SCRIPTDIR/synaptics.sh
+	$SCRIPTDIR/startmenu.sh
 #
 # non-wm specific shortcuts
 #
@@ -49,6 +49,8 @@ super + shift + o
 super + shift + p
 	xrandr --output eDP1 --primary --auto --output HDMI2 --same-as eDP1 --scale-from 1920x1080
 
+super + o
+	$SCRIPTDIR/startmenu.sh
 #
 # scripts installed to /usr/local/bin
 #
@@ -68,7 +70,7 @@ shift + F1
 
 #@@Izberi ameriško ali slovensko tipkovnico
 super + shift + k
-	setlayout
+	setlayout && refbar
 
 #
 # scripts in their home folder
