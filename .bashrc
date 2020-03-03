@@ -14,9 +14,7 @@ else
 	PS1="\[$(tput setaf 4)\][ \[$(tput setaf 1)\]\u@\h \[$(tput setaf 2)\]\w \[$(tput setaf 4)\]] $ \[$(tput sgr0)\]"
 fi
 
-export SCRIPTDIR="$HOME/Documents/Scripts"
-export EDITOR="nvim"
-export PROFILE="$(cat $HOME/.config/profile)"
+source "$HOME/.env"
 
 alias hkd='vim $HOME/.config/sxhkd/sxhkdrc_$PROFILE && sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$PROFILE'
 
