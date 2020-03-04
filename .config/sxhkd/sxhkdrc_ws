@@ -29,10 +29,10 @@ alt + g
 	$SCRIPTDIR/creds.sh
 
 alt + x
-	$SCRIPTDIR/lock.sh
+	betterlockscreen -l blur	
 
 alt + shift + s
-	$SCRIPTDIR/lock.sh sleep
+	betterlockscreen -s blur
 
 alt + shift + n
 	$SCRIPTDIR/networkmanager/nm.sh && refbar

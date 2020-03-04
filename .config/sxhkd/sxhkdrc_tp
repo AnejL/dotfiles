@@ -87,11 +87,11 @@ super + shift + b
 #@Ugašanje in spanje
 #@@Zakleni računalnik in ga daj spat
 super + shift + s
-	$SCRIPTDIR/lock.sh sleep
+	betterlockscreen -s blur
 
 #@@Zakleni računalnik
 super + x
-	$SCRIPTDIR/lock.sh 
+	betterlockscreen -l blur
 
 super + g
 	$SCRIPTDIR/creds.sh
