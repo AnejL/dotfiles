@@ -25,8 +25,8 @@ dunst &
 
 sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$PROFILE &
 
-amixer set Capture nocap &
-amixer set Master mute &
+amixer set Capture nocap 
+amixer set Master mute 
 
 #-----------------------!daemons
 
@@ -35,7 +35,7 @@ amixer set Master mute &
 wallpaper sf &
 
 dbc &
-calendar &  
+calendar & 
 st &
 exec dwm
 

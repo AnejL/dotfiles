@@ -33,10 +33,10 @@ XF86TouchpadToggle
 	$SCRIPTDIR/synaptics.sh
 	
 XF86ScreenSaver
-	i3lockcolor
+	betterlockscreen -l blur
 
 XF86Sleep
-	i3lockcolor
+	systemctl suspend
 
 XF86AudioPrev
 	cmus-remote -r
@@ -46,6 +46,9 @@ XF86AudioNext
 
 XF86AudioPlay
 	cmus-remote -u
+
+XF86Launch1
+	$SCRIPTDIR/startmenu.sh
 
 #
 # non-wm specific shortcuts
@@ -76,7 +79,7 @@ alt + b
 
 #@@Izberi ameriško ali slovensko tipkovnico
 super + shift + k
-	setlayout
+	setlayout && refbar
 
 #
 # scripts in their home folder
@@ -93,11 +96,11 @@ super + shift + b
 #@Ugašanje in spanje
 #@@Zakleni računalnik in ga daj spat
 super + shift + s
-	i3lockcolor sleep
+	systemctl suspend
 
 #@@Zakleni računalnik
 super + x
-	$SCRIPTDIR/lock.sh 
+	betterlockscreen -l blur
 
 super + g
 	$SCRIPTDIR/creds.sh
