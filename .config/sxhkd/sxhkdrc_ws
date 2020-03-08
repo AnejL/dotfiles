@@ -18,6 +18,12 @@ alt + shift + Delete
 alt + ctrl + {k,l}
 	systemctl {poweroff, reboot}
 
+{XF86AudioRaiseVolume, XF86AudioLowerVolume}
+	amixer set Master 5{+,-} && refbar
+
+XF86AudioMute
+	amixer set Master toggle && refbar
+
 #
 # Scripts in my HOME folder
 #
@@ -38,7 +44,7 @@ alt + shift + n
 	$SCRIPTDIR/networkmanager/nm.sh && refbar
 
 alt + shift + k
-	setlayout
+	setlayout && refbar
 
 shift + F1
 	$SCRIPTDIR/alsacontrol.sh && refbar

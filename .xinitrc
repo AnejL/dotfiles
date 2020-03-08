@@ -26,7 +26,10 @@ dunst &
 sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$PROFILE &
 
 amixer set Capture nocap 
-amixer set Master mute 
+
+if [ ! $PROFILE = "ws" ]; then
+	amixer set Master mute 
+fi
 
 #-----------------------!daemons
 
