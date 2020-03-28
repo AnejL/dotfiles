@@ -24,12 +24,8 @@ alias ost='cd /opt/st'
 alias ox='cd /opt/lampp'
 
 alias vim='nvim'
-
-alias gc='$SCRIPTDIR/gitpush.sh'
-
 alias brc='vim $HOME/.bashrc'
-alias vimrc='vim $HOME/.config/nvim/init.vim'
-
+alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias nnn='nnn -dHi'
 
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
@@ -39,7 +35,6 @@ alias cdxmp='cd /opt/lampp/'
 alias cdhtd='cd /opt/lampp/htdocs'
 alias f='cd $HOME/Documents/Faks/diplomska'
 
-alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias btw='neofetch'
 alias ltx='cd $HOME/Documents/Latex'
 
