@@ -35,6 +35,5 @@
 
 !/.local/
 /.local/*
-/.local/sysprog/
-/.local/share/
 !/.local/scripts
+!/.local/sysprog
