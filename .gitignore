@@ -18,6 +18,8 @@
 
 # But not these files...
 !/.config/i3/
+!/.config/gtk-2.0/
+!/.config/git/
 !/.config/dunst/
 !/.config/mutt/
 !/.config/neofetch/
@@ -27,7 +29,7 @@
 !/.config/sxhkd/
 !.config/Thunar/
 !/.config/compton.conf/
-!/.config/mimeapps.list/
+!/.config/mimeapps.list
 !/.config/env
 
 /.config/ranger/bookmarks

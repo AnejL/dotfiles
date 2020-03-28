@@ -1,0 +1,10 @@
+[Added Associations]
+application/x-shellscript=nvim.desktop;textopen.desktop;vim.desktop;
+text/plain=libreoffice-writer.desktop;nvim.desktop;vim.desktop;
+video/quicktime=vlc.desktop;
+text/x-chdr=textopen.desktop;vim.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+
+[Default Applications]
+text/x-chdr=textopen.desktop
+x-scheme-handler/msteams=teams.desktop
