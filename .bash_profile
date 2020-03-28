@@ -2,7 +2,7 @@
 # ~/.bash_profile
 #
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+[ -f ~/.bashrc ] && source ~/.bashrc
 
 if [ "$USER" = "anej" ]; then
 	exec startx

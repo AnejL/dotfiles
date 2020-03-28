@@ -28,6 +28,7 @@
 !.config/Thunar/
 !/.config/compton.conf/
 !/.config/mimeapps.list/
+!/.config/.bashrc
 
 /.config/ranger/bookmarks
 /.config/ranger/history
