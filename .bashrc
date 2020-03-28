@@ -23,29 +23,14 @@ alias odw='cd /opt/dwm'
 alias ost='cd /opt/st'
 alias ox='cd /opt/lampp'
 
-alias psyu='sudo pacman -Syu'
-alias psyyu='sudo pacman -Syyu'
-
 alias vim='nvim'
-alias ds='cd $SCRIPTDIR'
-alias dsd='cd $SCRIPTDIR/dbc' 
-alias dsa='cd $SCRIPTDIR/archer'
-alias dss='cd $SCRIPTDIR/sound'
-alias dsb='cd $SCRIPTDIR/backupper'
 
-alias mt='$SCRIPTDIR/mount.sh'
-
-alias aura='$SCRIPTDIR/aura/aura.sh'
 alias gc='$SCRIPTDIR/gitpush.sh'
 
 alias brc='vim $HOME/.bashrc'
 alias vimrc='vim $HOME/.config/nvim/init.vim'
 
-alias cpwd='$SCRIPTDIR/cpwd.sh'
 alias nnn='nnn -dHi'
-alias new='$SCRIPTDIR/newbashscript.sh'
-alias newc='$SCRIPTDIR/newcprogram.sh'
-alias bkpc='$SCRIPTDIR/backupc.sh'
 
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
@@ -56,8 +41,6 @@ alias f='cd $HOME/Documents/Faks/diplomska'
 
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias btw='neofetch'
-alias tpo='cd $HOME/Documents/Faks/5_semester/TPO/seminarska/tello-studio'
+alias ltx='cd $HOME/Documents/Latex'
 
-alias addrule='$SCRIPTDIR/addufwrule.sh'
 alias reshell='sudo ln -sf /bin/dash /bin/sh'
-alias adddate='vim $SCRIPTDIR/calendar/importantdates'

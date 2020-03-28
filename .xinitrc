@@ -35,7 +35,7 @@ fi
 
 #-----------------------wm and visual changes
 
-wallpaper sf &
+setbg &
 
 dbc &
 calendar & 

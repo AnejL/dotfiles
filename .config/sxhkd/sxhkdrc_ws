@@ -10,7 +10,7 @@ alt + Escape
 #
 
 alt + {Insert,Delete} 
-	amixer set Master 2{+,-} && refbar
+	amixer set Master 5{+,-} && refbar
 
 alt + shift + Delete
 	amixer set Master toggle && refbar
@@ -28,11 +28,8 @@ XF86AudioMute
 # Scripts in my HOME folder
 #
 
-alt + shift + i
-	$SCRIPTDIR/chooseide.sh
-
 alt + g
-	$SCRIPTDIR/creds.sh
+	creds
 
 alt + x
 	betterlockscreen -l blur	
@@ -41,13 +38,13 @@ alt + shift + s
 	betterlockscreen -s blur
 
 alt + shift + n
-	$SCRIPTDIR/networkmanager/nm.sh && refbar
+	nm && refbar
 
 alt + shift + k
 	setlayout && refbar
 
 shift + F1
-	$SCRIPTDIR/alsacontrol.sh && refbar
+	alsacontrol && refbar
 
 @Print
 	flameshot gui

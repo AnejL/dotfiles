@@ -16,15 +16,16 @@ URxvt.keysym.C-S-0x56: eval:paste_clipboard
 URxvt.keysym.C-Down:  resize-font:smaller
 URxvt.keysym.C-Up:    resize-font:bigger
 
-URxvt.font: 		xft:Mononoki:pixelsize=16
+URxvt.font: 		xft:IBM Plex Mono:pixelsize=16
 URxvt.scrollBar: 	false
 URxvt.termName:  	rxvt
 URxvt.internalBorder:   10 
 
 
-! ---------- generic colors ---------- !
+! ---------- generic colors---------- !
 ! 
-!
+! 
+! Nightfire color scheme
 ! special
 *.foreground:   #e5e7e6
 *.background:   #131926
@@ -60,7 +61,7 @@ URxvt.internalBorder:   10
 
 ! white
 *.color7:       #707880
-*.color15:      #c3c8c6
+*.color15:      #707880
 
 ! ---------- font settings ---------- !
 !
