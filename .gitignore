@@ -33,7 +33,9 @@
 /.config/ranger/history
 /.config/Thunar/accels.scm
 
-# .local dir
-/.local/share/*
-!/.local/sysprog
-!/.local/sysprog/*
+# Don't ignore .local but ignore everything in it
+!./.local
+/.local/*
+
+# But not these files...
+!/.local/sysprog/
