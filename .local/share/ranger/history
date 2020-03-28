@@ -1,0 +1,8 @@
+search .config
+delete 
+delete y
+trash
+search .local
+shell st
+cut
+delete
