@@ -1,0 +1,41 @@
+#!/bin/sh
+COMMITNAME="Synchronisation"
+FAKSDIR="$HOME/Documents/Faks"
+
+echo "Syncing git repos."
+
+if [ "$1" = "push" ]; then
+	echo "Pushing HOME."
+	cd $HOME
+	git add .
+	git commit -m $COMMITNAME
+	git push origin master
+
+	echo "Pushing ACADEMIC."
+	cd $FAKSDIR
+	git add .
+	git commit -m $COMMITNAME
+	git push origin master
+
+	echo "Pushing SCRIPTS."
+	cd $SCRIPTDIR
+	git add .
+	git commit -m $COMMITNAME
+	git push origin master
+elif [ "$1" = "pull" ]; then
+	echo "Pulling HOME."
+	cd $HOME
+	git pull origin master
+	echo "Pulling ACADEMIC."
+	cd $FAKSDIR
+	git pull origin master
+	echo "Pulling SCRIPTS."
+	cd $SCRIPTDIR
+	git pull origin master
+else
+	echo "Add push or pull argument!"
+	exit 1
+fi
+
+echo "All done. Exiting."
+exit 0

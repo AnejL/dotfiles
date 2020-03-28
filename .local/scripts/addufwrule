@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ $# -ne 1 ]; then
+	echo "Usage: addrule [ip]/[mask] eg. addrule 192.168.1.0/24"
+	exit 1
+fi
+sudo ufw allow from $1 to any port 1608 proto tcp
+sudo ufw status numbered
+exit 0
