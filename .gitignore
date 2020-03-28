@@ -34,5 +34,7 @@
 /.config/Thunar/accels.scm
 
 !/.local/
+/.local/*
 /.local/sysprog/
 /.local/share/
+!/.local/scripts
