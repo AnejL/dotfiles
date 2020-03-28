@@ -28,12 +28,13 @@
 !.config/Thunar/
 !/.config/compton.conf/
 !/.config/mimeapps.list/
-!/.config/.bashrc
+!/.config/env
 
 /.config/ranger/bookmarks
 /.config/ranger/history
 /.config/Thunar/accels.scm
 
+# Ignore everything in .local folder except
 !/.local/
 /.local/*
 !/.local/scripts
