@@ -5,26 +5,11 @@ FAKSDIR="$HOME/Documents/Faks"
 echo "Syncing git repos."
 
 if [ "$1" = "push" ]; then
-	echo "Pushing SCRIPTS."
-	cd $SCRIPTDIR
-	gc $COMMITNAME
-	
 	echo "Pushing HOME."
 	cd $HOME
 	gc $COMMITNAME
 
-	# echo "Pushing ACADEMIC."
-	# cd $FAKSDIR
-	# gc $COMMITNAME
 elif [ "$1" = "pull" ]; then
-	# echo "Pulling ACADEMIC."
-	# cd $FAKSDIR
-	# git pull origin master
-
-	echo "Pulling SCRIPTS."
-	cd $SCRIPTDIR
-	git pull origin master
-	
 	echo "Pulling HOME."
 	cd $HOME
 	git pull origin master
