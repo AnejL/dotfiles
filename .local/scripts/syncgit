@@ -13,6 +13,7 @@ if [ "$1" = "push" ]; then
 elif [ "$1" = "pull" ]; then
 	echo "Pulling HOME."
 	cd $HOME
+	git submodule update --remote --merge
 	git pull origin master
 else
 	echo "Add push or pull argument!"
