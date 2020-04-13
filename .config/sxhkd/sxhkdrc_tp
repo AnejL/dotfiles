@@ -26,11 +26,8 @@ XF86AudioMute
 XF86AudioMicMute
 	amixer set Capture toggle
 
-XF86Tools
-	$SCRIPTDIR/chooseide.sh
-
 XF86Favorites
-	$SCRIPTDIR/startmenu.sh
+	startmenu
 #
 # non-wm specific shortcuts
 #
@@ -49,8 +46,6 @@ super + shift + o
 super + shift + p
 	xrandr --output eDP1 --primary --auto --output HDMI2 --same-as eDP1 --scale-from 1920x1080
 
-super + o
-	$SCRIPTDIR/startmenu.sh
 #
 # scripts installed to /usr/local/bin
 #
@@ -78,11 +73,11 @@ super + shift + k
 
 #@@Izberi wifi omrežje
 super + shift + n
-	$SCRIPTDIR/networkmanager/nm.sh && refbar
+	networkwizard && refbar
 
 #@@Powersaving/High performance
 super + shift + b
-	$SCRIPTDIR/powersaving.sh
+	powersaving
 
 #@Ugašanje in spanje
 #@@Zakleni računalnik in ga daj spat
@@ -94,7 +89,7 @@ super + x
 	betterlockscreen -l blur
 
 super + g
-	$SCRIPTDIR/creds.sh
+	creds
 
 #@@Ugasni računalnik
 super + ctrl + k

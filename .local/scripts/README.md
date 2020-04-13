@@ -2,21 +2,17 @@
 
 The scripts in the folders are some of the larger projects while the scripts in this folder are simple ones that I just wanted to automate at some point / bind them to various keys.
 
-Short descriptions:
+Short descriptions of noteworthy scripts:
 
-- aura (deprecated) - a simple aur package downloader / installer
-- bt - simple shell script for connecting/disconnecting to my bluetooth headphones (unfinished)
-- calendar - simple calendar script that shows current day events (unfinished)
-- mounter - simple terminal based usb mounting utility
-- mutter - a mutt account config editor (unfinished)
-- networkmanager - simple dmenu based script for connecting to wifi
-- notes - a collection of utilities to write notes for school
-- sound - switcher for different pulseaudio sinks
-- tia - a simple script that takes sxhkdrc (with propper formatting) and converts it to an html page with explanations how to use the computer
-
-**Other notable scripts**:
-
-- creds.sh - copy my email to clipboard
-- installall.sh - (re)install scripts from this repo to /usr/local/bin
-- lock\_suspend - lock the computer with i3lock-color and put it to sleep
-- wallpaper.sh - switch wallpaper every so often
+compiler - compile a latex document
+cpwd - copy working dir to clipboard
+creds - copy an account name to clipboard
+gc - git commit
+mt - mount device to /media/mt\*
+new - new shell script
+newc - new shell program
+se - script edit
+sn - script new
+syncgit - sync local computer with remote server
+texclear - clear intermediate latex files
+vimtex - open latex file and use entr to achieve "live preview"
