@@ -7,27 +7,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 	unset f
 fi
 
-# intellij wm fix
-wmname LG3D
+startup
 
-# daemons
-xset b off
-flameshot &
-numlockx &
-dunst &
-
-sxhkd -c $HOME/.config/sxhkd/sxhkdrc_$PROFILE &
-
-amixer set Capture nocap 
-
-if [ ! $PROFILE = "ws" ]; then
-	amixer set Master mute 
-fi
-
-# wm and visual changes
-setbg &
-dbc &
-calendar & 
-st &
-
-exec dwm
+[ $WM = "kde" ] && exec startplasma-x11 || exec dwm

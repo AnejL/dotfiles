@@ -18,11 +18,11 @@ alt + shift + Delete
 alt + ctrl + {k,l}
 	systemctl {poweroff, reboot}
 
-{XF86AudioRaiseVolume, XF86AudioLowerVolume}
-	amixer set Master 5{+,-} && refbar
+#{XF86AudioRaiseVolume, XF86AudioLowerVolume}
+#	amixer set Master 5{+,-} && refbar
 
-XF86AudioMute
-	amixer set Master toggle && refbar
+#XF86AudioMute
+#	amixer set Master toggle && refbar
 
 #
 # Scripts in my HOME folder
@@ -32,10 +32,10 @@ alt + g
 	creds
 
 alt + x
-	betterlockscreen -l blur	
+	betterlockscreen -l
 
 alt + shift + s
-	betterlockscreen -s blur
+	betterlockscreen -s
 
 alt + shift + n
 	nm && refbar
@@ -45,6 +45,12 @@ alt + shift + k
 
 shift + F1
 	alsacontrol && refbar
+
+alt + shift + d
+	discord
+
+alt + shift + Return
+	st
 
 @Print
 	flameshot gui

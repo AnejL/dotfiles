@@ -14,6 +14,7 @@ export DMENU_WHITE_GREEN="-sb #a3be8c -nf #e5e9f0 -nb #eceff4 -nf #4c566a"
 export SCRIPTDIR="$HOME/.local/scripts"
 export EDITOR="nvim"
 export PROFILE="$(cat $HOME/.config/profile)"
+export WM="$(cat $HOME/.config/wm)"
 
 # append scriptdir to path
 export PATH="$PATH:$SCRIPTDIR"
@@ -31,7 +32,7 @@ export XDG_DATA_HOME="$HOME/.local/share"
 # clean up
 export LESSHISTFILE="-"
 
-export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority" # will break some display managers
+#export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority" # will break some display managers
 
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
 export BASH_COMPLETION_USER_FILE="$XDG_CONFIG_HOME/bash/bash-completion/bash_completion"

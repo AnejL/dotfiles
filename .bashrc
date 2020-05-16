@@ -26,6 +26,7 @@ alias ost='cd /opt/st'
 alias ox='cd /opt/lampp'
 
 alias f='cd $HOME/Documents/Faks/diplomska'
+alias fp='cd $HOME/Documents/Faks/praksa'
 alias ltx='cd $HOME/Documents/Latex'
 
 alias xmp='sudo /opt/lampp/lampp'
@@ -34,3 +35,4 @@ alias cdhtd='cd /opt/lampp/htdocs'
 
 alias reshell='sudo ln -sf /bin/dash /bin/sh'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias coldstorage='sudo mount /dev/sda2 /mnt/coldstorage && ranger /mnt/coldstorage'
