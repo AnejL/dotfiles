@@ -22,4 +22,3 @@ case "$file" in
 	*config.h) sudo make clean install ;;
 	*) ;;
 esac
-
