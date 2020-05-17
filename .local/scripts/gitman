@@ -38,7 +38,7 @@ for repo in $(cat $CONFIGFILE); do
 		read -p "Push repo? [y/n] "
 		[ "$REPLY" = "n" ] && continue
 		gc "gitman update"
-	elif [ "$LOCAL" = "$BASE" ]
+	elif [ $diff -gt 0 ] && [ "$LOCAL" = "$BASE" ]
 	then
 		read -p "Pull repo? [y/n] "
 		[ "$REPLY" = "n" ] && continue
