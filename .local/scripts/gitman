@@ -24,6 +24,8 @@ for repo in $(cat $CONFIGFILE); do
 	echo -e "\nChecking: $repo"
 	cd $repo
 	
+	git pull origin master			
+
 	diff=$(git diff origin/master | wc -l)	
 
 	LOCAL="$(git rev-parse @)"
@@ -31,17 +33,14 @@ for repo in $(cat $CONFIGFILE); do
 	BASE="$(git merge-base @ master)"
 	wait
 
+	#	echo -e "diff: $diff \n$LOCAL\n$BASE\n"
+
 	[ $diff -eq 0 ] && [ $LOCAL = $REMOTE ] && echo "Up to date!" && continue
 	
-	if [ $diff -gt 0 ] && [ "$REMOTE" = "$BASE" ]
+	if [ $diff -gt 0 ] # && [ "$REMOTE" = "$BASE" ]
 	then
 		read -p "Push repo? [y/n] "
 		[ "$REPLY" = "n" ] && continue
 		gc "gitman update"
-	elif [ $diff -gt 0 ] && [ "$LOCAL" = "$BASE" ]
-	then
-		read -p "Pull repo? [y/n] "
-		[ "$REPLY" = "n" ] && continue
-		git pull origin master			
 	fi
 done 
