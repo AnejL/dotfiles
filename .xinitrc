@@ -9,7 +9,4 @@ fi
 
 startup
 
-
-
-
 [ $WM = "kde" ] && exec startplasma-x11 || exec dwm
