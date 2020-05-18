@@ -39,5 +39,5 @@
 # Ignore everything in .local folder except
 !/.local/
 /.local/*
-!/.local/scripts
-!/.local/sysprog
+/.local/scripts
+/.local/sysprog
