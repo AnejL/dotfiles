@@ -54,6 +54,9 @@ super + shift + p
 
 alt + b
 	btwiz
+# latex meni
+alt + l
+	cliplatex
 
 #@@Prikaži stanje baterije in preostali čas
 super + u

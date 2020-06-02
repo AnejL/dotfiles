@@ -27,6 +27,7 @@ alias ox='cd /opt/lampp'
 
 alias f='cd $HOME/Documents/Faks/diplomska'
 alias fp='cd $HOME/Documents/Faks/praksa'
+alias fds='cd $HOME/Documents/Faks/diplomski\ seminar'
 alias ltx='cd $HOME/Documents/Latex'
 
 alias xmp='sudo /opt/lampp/lampp'
