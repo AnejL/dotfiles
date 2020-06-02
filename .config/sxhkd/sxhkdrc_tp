@@ -15,10 +15,10 @@ XF86MonBrightnessDown
 	xbacklight -dec 10
 
 XF86AudioRaiseVolume
-	amixer set Master 2+ && refbar
+	amixer set Master 3+ && refbar
 
 XF86AudioLowerVolume
-	amixer set Master 2- && refbar
+	amixer set Master 3- && refbar
 
 XF86AudioMute
 	amixer set Master toggle && refbar
@@ -63,8 +63,11 @@ super + u
 	notify-send "$(acpi -b)" -t 3000
 
 #@@Preklopi zvočni izhod (slušalke ali HDMI)
-shift + F1
-	soundmgr switch & refbar
+#shift + F1
+	#soundmgr switch & refbar
+super + shift + n
+	nmwizard && refbar
+
 
 #@@Izberi ameriško ali slovensko tipkovnico
 super + shift + k
