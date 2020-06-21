@@ -18,6 +18,12 @@ alt + shift + Delete
 alt + ctrl + {k,l}
 	systemctl {poweroff, reboot}
 
+alt + shift + i
+	xrandr --output DP-4 --primary --auto --output DP-1 --off
+
+alt + shift + o
+	xrandr --output DP-4 --primary --auto --output DP-1 --auto --right-of DP-4 && setbg
+
 #{XF86AudioRaiseVolume, XF86AudioLowerVolume}
 #	amixer set Master 5{+,-} && refbar
 
