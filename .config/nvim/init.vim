@@ -12,6 +12,8 @@ set nu
 set shiftwidth=4
 set mouse=a
 set clipboard=unnamedplus
+set ignorecase
+set smartcase
 
 " nerdtreetoggle
 	map <C-n> :NERDTreeToggle<CR>
