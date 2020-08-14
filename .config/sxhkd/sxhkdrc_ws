@@ -49,6 +49,9 @@ alt + shift + n
 alt + shift + k
 	setlayout && refbar
 
+alt + c
+	cliplatex
+
 shift + F1
 	alsacontrol && refbar
 

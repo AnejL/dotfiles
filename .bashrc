@@ -25,7 +25,7 @@ alias odw='cd /opt/dwm'
 alias ost='cd /opt/st'
 alias ox='cd /opt/lampp'
 
-alias f='cd $HOME/Documents/Faks/diplomska'
+alias f='cd $HOME/Documents/Faks/diplomska/report'
 alias fp='cd $HOME/Documents/Faks/praksa'
 alias fds='cd $HOME/Documents/Faks/diplomskiseminar/diploma'
 alias ltx='cd $HOME/Documents/Latex'
