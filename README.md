@@ -6,15 +6,12 @@ Which programs have dotfiles here?
 
 - i3 (unused but kept my backup just in case)
 - dunst
-- mutt
 - neofetch
 - nnn
 - nvim
 - ranger
-- soundmgr (my pulseaudio sink switcher)
 - sxhkd
 - thunar (mainly for my custom actions)
-- compton
 - MIME
 - vim
 - bash
