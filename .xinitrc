@@ -9,4 +9,14 @@ fi
 
 startup
 
-[ $WM = "kde" ] && exec startplasma-x11 || exec dwm
+case $WM in
+	kde)
+		exec startplasma-x11
+		;;
+	dwm)
+		exec dwm
+		;;
+	*)
+		echo "Welcome!"
+		;;
+esac
