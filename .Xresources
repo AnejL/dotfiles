@@ -27,41 +27,41 @@ URxvt.internalBorder:   10
 ! 
 ! Nightfire color scheme
 ! special
-*.foreground:   #e5e7e6
-*.background:   #131926
-*.cursorColor:  #e5e7e6
+*.foreground:   #7ea2b4
+*.background:   #161b1d
+*.cursorColor:  #7ea2b4
 
 ! black
-*.color0:       #262b35
-*.color8:       #262b35
+*.color0:       #161b1d
+*.color8:       #5a7b8c
 
 ! red
-*.color1:       #f43434
-*.color9:       #f43434
+*.color1:       #d22d72
+*.color9:       #d22d72
 
 ! green
-*.color2:       #e94b4b
-*.color10:      #e94b4b
+*.color2:       #568c3b
+*.color10:      #568c3b
 
 ! yellow
-*.color3:       #de935f
-*.color11:      #de935f
+*.color3:       #8a8a0f
+*.color11:      #8a8a0f
 
 ! blue
-*.color4:       #81a2be
-*.color12:      #81a2be
+*.color4:       #257fad
+*.color12:      #257fad
 
 ! magenta
-*.color5:       #c56ae3
-*.color13:      #c56ae3
+*.color5:       #5d5db1
+*.color13:      #5d5db1
 
 ! cyan
-*.color6:       #dd6363
-*.color14:      #dd6363
+*.color6:       #2d8f6f
+*.color14:      #2d8f6f
 
 ! white
-*.color7:       #707880
-*.color15:      #707880
+*.color7:       #7ea2b4
+*.color15:      #ebf8ff
 
 ! ---------- font settings ---------- !
 !
