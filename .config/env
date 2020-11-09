@@ -12,7 +12,7 @@ export DMENU_WHITE_GREEN="-sb #a3be8c -nf #e5e9f0 -nb #eceff4 -nf #4c566a"
 
 # general settings
 export SCRIPTDIR="$HOME/.local/scripts"
-export PRIVATESCRIPTDIR="$HOME/.local/private"
+#export PRIVATESCRIPTDIR="$HOME/.local/private"
 export EDITOR="nvim"
 export PROFILE="$(cat $HOME/.config/profile)"
 export WM="$(cat $HOME/.config/wm)"
