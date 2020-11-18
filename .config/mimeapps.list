@@ -6,6 +6,7 @@ text/x-chdr=textopen.desktop;vim.desktop;
 application/pdf=firefox.desktop;mupdf.desktop;org.pwmt.zathura-pdf-mupdf.desktop;
 image/png=sxiv.desktop;
 text/x-tex=nvim.desktop;vim.desktop;
+application/x-msdos-program=nvim.desktop;
 
 [Default Applications]
 text/x-chdr=textopen.desktop
