@@ -29,7 +29,7 @@
 !/.config/sxhkd/
 !.config/Thunar/
 !/.config/compton.conf/
-!/.config/mimeapps.list
+#!/.config/mimeapps.list
 !/.config/env
 
 /.config/ranger/bookmarks
