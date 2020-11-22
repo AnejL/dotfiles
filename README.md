@@ -7,7 +7,6 @@ Which programs have dotfiles here?
 - i3 (unused but kept my backup just in case)
 - dunst
 - neofetch
-- nnn
 - nvim
 - ranger
 - sxhkd

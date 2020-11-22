@@ -36,4 +36,4 @@ alias cdhtd='cd /opt/lampp/htdocs'
 
 alias reshell='sudo ln -sf /bin/dash /bin/sh'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
-alias coldstorage='sudo mount /dev/sda2 /mnt/coldstorage && ranger /mnt/coldstorage'
+alias coldstorage='sudo mount /dev/sda1 /mnt/coldstorage && ranger /mnt/coldstorage'
