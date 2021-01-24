@@ -33,4 +33,13 @@
 	<text-files/>
 	<video-files/>
 </action>
+<action>
+	<icon>preferences-desktop-display-color</icon>
+	<name>setbg</name>
+	<unique-id>1611501260021535-1</unique-id>
+	<command>setbg %f</command>
+	<description>Set background with setbg script</description>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
 </actions>
